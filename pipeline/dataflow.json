@@ -64,7 +64,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataflow": {
-						"referenceName": "dataflow1",
+						"referenceName": "FR - dataflow1",
 						"type": "DataFlowReference"
 					},
 					"compute": {
