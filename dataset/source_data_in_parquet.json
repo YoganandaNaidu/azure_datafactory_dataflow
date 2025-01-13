@@ -1,0 +1,24 @@
+{
+	"name": "source_data_in_parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_source",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "first_blob_to_datalake"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "userdata.parquet",
+				"container": "landing"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

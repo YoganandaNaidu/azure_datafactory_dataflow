@@ -1,0 +1,9 @@
+{
+	"name": "fisrtMadhappa",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1324035a-f5ec-42a4-bc29-59f42ae0bc40",
+		"tenantId": "8aff3740-53a0-49db-9787-6dcee0160fb2"
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"name": "source_data_in_json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_source",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "first_blob_to_datalake"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "sample1.json",
+				"container": "landing"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
