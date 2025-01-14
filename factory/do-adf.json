@@ -1,0 +1,9 @@
+{
+	"name": "do-adf",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "94f23257-a953-4ea0-a6cc-9335aaddde26",
+		"tenantId": "8aff3740-53a0-49db-9787-6dcee0160fb2"
+	}
+}
